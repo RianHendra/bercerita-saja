@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    /* Font umum untuk seluruh halaman */
+    background-color: #FCF5EC;
+    /* Warna latar belakang halaman */
+}
+
+.container {
+    max-width: 1200px;
+    /* Lebar maksimal container */
+    margin: 0 auto;
+    /* Pusatkan container */
+    padding: 20px;
+    /* Ruang di dalam container */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.header {
+    margin-top: 1.5em;
+    text-align: center;
+    /* Pusatkan teks di header */
+    margin-bottom: 30px;
+    /* Jarak bawah header */
+}
+
+.header h1 {
+    color: #1c2850;
+    /* Warna judul */
+    font-size: 2.5em;
+    /* Ukuran font judul */
+    font-family: "Dancing Script", cursive;
+}
+
+.header p {
+    color: #f89c12;
+    /* Warna teks kutipan */
+    font-size: 1.2em;
+    /* Ukuran font kutipan */
+    font-family: "Dancing Script", cursive;
+    width: 90%;
+    margin: auto;
+}
+
+.card {
+    background-color: white;
+    /* Warna latar belakang kartu */
+    border-radius: 15px;
+    /* Sudut kartu yang melengkung */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Bayangan di bawah kartu */
+    margin-bottom: 20px;
+    /* Jarak bawah kartu */
+    padding: 30px;
+    /* Ruang di dalam kartu */
+    transition: transform 0.2s;
+    /* Efek transisi saat hover */
+}
+
+.card-title {
+    font-weight: bold;
+    /* Tebalkan judul kartu */
+    font-size: 1.8em;
+    /* Ukuran font judul kartu */
+    margin-bottom: 10px;
+    /* Jarak bawah judul kartu */
+    color: #1c2850;
+    /* Warna judul kartu */
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+}
+
+.card-text {
+    /* Warna teks dalam kartu */
+    line-height: 1.6;
+    /* Jarak antar baris teks */
+    font-family: "Lora", serif;
+    color: #666666;
+    text-align: left;
+}
+
+.read-more {
+    color: #393939;
+    /* Warna teks untuk link baca lebih lanjut */
+    cursor: pointer;
+    font-family: "Playfair Display", serif;
+    /* Garis bawah pada link */
+}
+
+.read-more:hover {
+    color: #393939;
+    /* Warna saat hover pada link */
+
+}
+
+.hidden-text {
+    /* Jarak atas dari teks sebelumnya */
+    color: #666666;
+    /* Warna teks tambahan */
+}
